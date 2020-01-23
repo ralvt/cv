@@ -6,7 +6,8 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  position: relative;
+  margin-top: 5%;
   font-family: 'Sacramento', cursive;
 }
 
@@ -36,22 +37,58 @@ hr {
 padding: 50px;
 }
 
-.container-1 {
-  position: relative;
-  top: 100px;
+.parent-1 {
   min-height: 100vh;
+  min-width: 100vh;
+  position: relative;
 }
 
-.container-2 {
-  position: relative;
-  top: 150px;
-  min-height: 100vh;
+.child-1 {
+  background-color: pink;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
-.container-3 {
-  position: relative;
-  top: 75px;
+.parent-2 {
   min-height: 100vh;
+  min-width: 100vh;
+  position: relative;
+}
+
+.child-2 {
+  background-color: pink;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.parent-3 {
+  min-height: 100vh;
+  min-width: 100vh;
+  position: relative;
+}
+
+.child-3 {
+  background-color: pink;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .container-4 {
@@ -63,16 +100,28 @@ padding: 50px;
   text-decoration: underline;
 }
 
+.mountain {
+position: relative;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+}
+
 .top-cloud {
   position: absolute;
-  right: 20%;
-  top: 50px;
+  left: 70%;
+  top: 15%;
+  bottom: 0;
+  right: 0;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 20%;
-  top: 150px;
+  top: 25%;
+  bottom: 0;
+  right: 0;
 }
 
 .RayGuitar {

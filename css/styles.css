@@ -25,11 +25,6 @@ p {
   text-align: center;
 }
 
-hr {
-  text-align: center;
-  position: relative;
-}
-
 .custom-hr {
   position: relative;
   border-style: none;

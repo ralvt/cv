@@ -25,6 +25,10 @@ p {
   text-align: center;
 }
 
+hr {
+  position: relative;
+}
+
 .custom-hr {
   position: relative;
   border-style: none;

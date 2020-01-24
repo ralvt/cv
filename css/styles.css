@@ -1,25 +1,32 @@
 body {
   background-color: #e4f9f5;
   margin: 0;
-  text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 h1 {
+  text-align: center;
   position: relative;
   margin-top: 5%;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  text-align: center;
+}
+
 hr {
+  text-align: center;
   position: relative;
 }
 
@@ -34,7 +41,7 @@ hr {
 }
 
 .image-monitor {
-padding: 50px;
+  padding: 50px;
 }
 
 .parent-1 {
@@ -63,7 +70,7 @@ padding: 50px;
 
 .child-2 {
   background-color: pink;
-  height: 50%;
+  height: 35%;
   width: 55%;
   position: absolute;
   left: 0;
@@ -113,12 +120,18 @@ padding: 50px;
   text-decoration: underline;
 }
 
+.img {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mountain {
-position: relative;
-left: 0;
-top: 0;
-right: 0;
-bottom: 0;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-cloud {
@@ -126,7 +139,6 @@ bottom: 0;
   right: 0;
   top: 15%;
   bottom: 0;
-  right: 0;
 }
 
 .bottom-cloud {
@@ -134,13 +146,26 @@ bottom: 0;
   left: 10%;
   top: 25%;
   bottom: 0;
-  right: 0;
 }
 
 .RayGuitar {
   border-style: solid;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .foot {
- font-size: 6px;
+  font-size: 6px;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+}
+
+.footer-link {
+  text-align: center;
+  display: block;
 }

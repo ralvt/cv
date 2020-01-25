@@ -1,23 +1,26 @@
 body {
   background-color: #e4f9f5;
   margin: 0;
+  text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 h1 {
-  text-align: center;
-  position: relative;
-  margin-top: 5%;
+  color: #66bfbf;
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
-  text-align: center;
+  color: #66bfbf;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3 {
-  text-align: center;
+  color: #11999e;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -35,88 +38,30 @@ hr {
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
-  width: 4%;
+  width: 3%;
   top: 100px;
-}
-
-.image-monitor {
-  padding: 50px;
-}
-
-.parent-1 {
-  min-height: 100vh;
-  min-width: 100vh;
-  position: relative;
-}
-
-.child-1 {
-  background-color: pink;
-  height: 70%;
-  width: 55%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.parent-2 {
-  min-height: 100vh;
-  min-width: 100vh;
-  position: relative;
-}
-
-.child-2 {
-  background-color: pink;
-  height: 35%;
-  width: 55%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.parent-3 {
-  min-height: 100vh;
-  min-width: 100vh;
-  position: relative;
-}
-
-.child-3 {
-  background-color: pink;
-  height: 70%;
-  width: 55%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.parent-4 {
-  min-height: 100vh;
-  min-width: 100vh;
-  position: relative;
-}
-
-.child-4 {
-  background-color: pink;
-  height: 70%;
-  width: 85%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  top: 0;
+}
+
+.middle-container {
+  position: relative;
+  padding-top: 100px;
+  top: 0;
+}
+
+.bottom-container {
+  position: relative;
+  padding-top: 100px;
+  top: 0;
 }
 
 .img {
@@ -135,16 +80,14 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 0;
-  top: 15%;
-  bottom: 0;
+  right: 300px;
+  top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 10%;
-  top: 25%;
-  bottom: 0;
+  left: 300px;
+  bottom: 300px;
 }
 
 .RayGuitar {
@@ -155,16 +98,6 @@ hr {
   margin-right: auto;
 }
 
-.foot {
-  font-size: 6px;
-}
-
-.btn {
-  text-align: center;
-  display: block;
-}
-
 .footer-link {
   text-align: center;
-  display: block;
 }

@@ -98,6 +98,14 @@ hr {
   margin-right: auto;
 }
 
+.foot {
+  font-size: 6px;
+}
+
+.btn {
+  text-align: center;
+}
+
 .footer-link {
   text-align: center;
 }

@@ -5,37 +5,13 @@
   box-sizing: border-box;
 }
 
+/* misc */
 
 body {
   background-color: #e4f9f5;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-}
-
-.greeting-wrapper {
-  display: inline-block;
-  position: relative;
-  height: 100vh;
-  width: 80vw;
-}
-
-.profile-wrapper,
-.skills-wrapper,
-.contact-me {
-  display: inline-block;
-  position: relative;
-  height: 100vh;
-  width: 80vw;
-}
-
-.mainh1 {
-  position: relative;
-  color: #519999;
-  font-size: 2.5em;
-  margin: 0 auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  top: 15%;
 }
 
 h2 {
@@ -50,26 +26,67 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.brief {
+  padding-top: 1%;
+}
+
+.justify {
+  text-align: justify;
+  padding-top: 2%;
+}
+
 .pro {
   text-decoration: underline;
 }
 
-.hr {
-  background-color: white;
-  border-style: none;
-  height: 2px;
-  width: 100px;
+/* for the favicon link */
+.foot {
+  position: absolute;
+  color: lightgray;
+  width: 100%;
+  text-align: center;
+  font-size: 6px;
 }
 
-.profile-wrapperpg1,
-.profile-wrapperpg2,
-.profile-wrapperpg3 {
+.explore-footer {
   position: absolute;
-  top: 27%;
-  width: 750px;
-  height: 50%;
-  right: 50%;
-  margin-right: -375px;
+  width: 100%;
+  color: #519999;
+  font-size: 2em;
+  margin-top: 2%;
+}
+
+.copyright {
+  margin-top: 2%;
+  color: black;
+  font-size: .5em;
+}
+
+/* navigation */
+
+.nav-wrapper {
+  display: inline-block;
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+}
+
+/* index */
+
+.greeting-wrapper {
+  display: inline-block;
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+}
+
+.mainh1 {
+  position: relative;
+  color: #519999;
+  font-size: 2.5em;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  top: 15%;
 }
 
 .mountain {
@@ -93,18 +110,114 @@ h3 {
   top: 40%;
 }
 
-#rayguitar {
+.binoculars {
+  padding-top: 1%;
+}
+
+/* hello */
+
+.hello-wrapper {
+  display: inline-block;
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+}
+
+.img-computer {
+  position: absolute;
+  right: 50%;
+  margin-right: -64px;
+  margin-left: 0;
+  top: 20%;
+}
+
+.hello-text-container {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+
+/* skills */
+
+.skills-wrapper {
+  display: inline-block;
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+}
+
+.skills-h2 {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+}
+
+.img-sql {
+  position: absolute;
+  display: inline-block;
+  right: 50%;
+  margin-right: -64px;
+  top: 15%;
+}
+
+.skills-text-container-one {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.img-web {
+  position: absolute;
+  display: inline-block;
+  right: 50%;
+  margin-right: -64px;
+  top: 49%;
+}
+
+.skills-text-container-two {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+}
+
+/* contact me */
+
+.contact-me {
+  display: inline-block;
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+}
+
+.contact-me-text-container {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+}
+
+.rayguitar {
+  position: absolute;
+  display: inline-block;
+  right: 50%;
+  margin-right: -89.5px;
+  top: 5%;
   border: black solid;
 }
 
-.foot {
-  font-size: 6px;
+.contact-me-h2 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
 }
 
-.btn {
-  text-align: center;
+.contact-container {
+  width: 100%;
+  margin-bottom: 2%;
 }
 
-.footer-link {
+footer {
+  position: absolute;
   text-align: center;
+  width: 100%;
+  bottom: 2%;
 }
